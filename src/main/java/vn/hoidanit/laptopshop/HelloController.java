@@ -3,10 +3,10 @@ package vn.hoidanit.laptopshop;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController 
+@RestController
 public class HelloController {
-    @GetMapping("/")
+  @GetMapping("/")
   public String index() {
-    return "Hello World from Tung Duong";
+    return "Hello World with TungDuong";
   }
 }
